@@ -1,7 +1,9 @@
+import Counter from "./features/counter/Counter";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-center mt-4">
-      Hello world!
-    </h1>
+    <div className="h-screen w-screen flex justify-center items-center">
+      <Counter />
+    </div>
   );
 }
